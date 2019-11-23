@@ -1,0 +1,27 @@
+{
+  "name": "react-native-vector-icons-helper",
+  "version": "0.0.1",
+  "description": "A helper function to import vector icons from react-native-vector-icons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalid32/react-native-vector-icons-helper.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "vector",
+    "icons",
+    "vector-icons",
+    "react-native-vector-icons"
+  ],
+  "author": "Khalid Syfullah Zaman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khalid32/react-native-vector-icons-helper/issues"
+  },
+  "homepage": "https://github.com/khalid32/react-native-vector-icons-helper#readme"
+}
