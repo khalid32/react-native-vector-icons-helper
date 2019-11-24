@@ -15,51 +15,51 @@ import Octicons from 'react-native-vector-icons/Octicons';
 import Zocial from 'react-native-vector-icons/Zocial';
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
 
-export const Icon = ({iconBundled="Ionicons", iconName="md-home", iconColor='white', iconSize=18, iconStyle={}}) => {
-    switch(iconBundled){
+export const Icon = ({bundle="Ionicons", name="md-home", color='white', size=18, style={}}) => {
+    switch(bundle){
         case 'AntDesign':
-            return <AntDesign name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <AntDesign name={name} size={size} color={color} style={style} />;
             break;
         case 'Entypo':
-            return <Entypo name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <Entypo name={name} size={size} color={color} style={style} />;
             break;
         case 'EvilIcons':
-            return <EvilIcons name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <EvilIcons name={name} size={size} color={color} style={style} />;
             break;
         case 'Ionicons':
-            return <Ionicons name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <Ionicons name={name} size={size} color={color} style={style} />;
             break;
         case 'Feather':
-            return <Feather name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <Feather name={name} size={size} color={color} style={style} />;
             break;
         case 'FontAwesome':
-            return <FontAwesome name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <FontAwesome name={name} size={size} color={color} style={style} />;
             break;
         case 'FontAwesome5':
-            return <FontAwesome5 name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <FontAwesome5 name={name} size={size} color={color} style={style} />;
             break;
         case 'Fontisto':
-            return <Fontisto name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <Fontisto name={name} size={size} color={color} style={style} />;
             break;
         case 'Foundation':
-            return <Foundation name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <Foundation name={name} size={size} color={color} style={style} />;
             break;
         case 'MaterialIcons':
-            return <MaterialIcons name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <MaterialIcons name={name} size={size} color={color} style={style} />;
             break;
         case 'MaterialCommunityIcons':
-            return <MaterialCommunityIcons name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <MaterialCommunityIcons name={name} size={size} color={color} style={style} />;
             break;
         case 'Octicons':
-            return <Octicons name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <Octicons name={name} size={size} color={color} style={style} />;
             break;
         case 'Zocial':
-            return <Zocial name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <Zocial name={name} size={size} color={color} style={style} />;
             break;
         case 'SimpleLineIcons':
-            return <SimpleLineIcons name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <SimpleLineIcons name={name} size={size} color={color} style={style} />;
             break;
         default:
-            return <Ionicons name={iconName} size={iconSize} color={iconColor} style={iconStyle} />;
+            return <Ionicons name={name} size={size} color={color} style={style} />;
     }
 }
